@@ -256,7 +256,7 @@ public class Main2Activity extends AppCompatActivity {
     }
     @Override
     public void onRequestPermissionsResult(int RC, String per[], int[] PResult) {
-
+        Log.d("asd", "onRequestPermissionsResult: ");
         switch (RC) {
 
             case RequestPermissionCode:
