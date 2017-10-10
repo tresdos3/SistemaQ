@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1083800873164",
+    "firebase_url": "https://sistemaq-f68e8.firebaseio.com",
+    "project_id": "sistemaq-f68e8",
+    "storage_bucket": "sistemaq-f68e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083800873164:android:6cc5e3a9ce351dd4",
+        "android_client_info": {
+          "package_name": "com.example.tresdos.sistemaq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083800873164-jegkb7qm3vjhko0a4u20rghdclgrolkr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tresdos.sistemaq",
+            "certificate_hash": "dc16ec55b4d517331d321fe777ddd41ca1a74f3c"
+          }
+        },
+        {
+          "client_id": "1083800873164-1vervdm4b27a0tbei6j3ud4k25tklhnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAevWsBloLtP0ykLkrvIZfucGm7xPzbeJk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083800873164-1vervdm4b27a0tbei6j3ud4k25tklhnr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

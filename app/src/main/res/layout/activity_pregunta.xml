@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tresdos.sistemaq.Pregunta"
+    android:layout_margin="70dp">
+
+    <Button
+        android:id="@+id/btnpadre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:height="60dp"
+        android:background="@color/fbutton_color_nephritis"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        android:padding="6dp"
+        android:paddingBottom="100px"
+        android:text="Usara el padre"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="70dp" />
+
+    <Button
+        android:id="@+id/btnhijo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:height="60dp"
+        android:background="@color/fbutton_color_nephritis"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="Usara el Hijo"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginBottom="139dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txttipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnhijo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp"
+        android:text="TextView" />
+</RelativeLayout>
